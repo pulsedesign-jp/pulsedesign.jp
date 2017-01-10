@@ -10,9 +10,7 @@ cache:
 before_script:
   - nvm install 5
   - npm install
-  - npm run build
 script:
-  - ls -al style.css
-  - ls -al bundle.js
+  - npm run build
 notifications:
   slack: pulsedesign:bq233WnTbLy5FcUDOMdVyV1f
