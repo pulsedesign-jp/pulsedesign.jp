@@ -8,6 +8,11 @@ cache:
   - node_modules
   yarn: true
 before_script:
-  - npm install -g gulp
-script: gulp
+  - nvm install 5
+  - npm install
+  - npm run build
+script:
+  - ls -al style.css
+  - ls -al bundle.js
+notifications:
   slack: pulsedesign:bq233WnTbLy5FcUDOMdVyV1f
