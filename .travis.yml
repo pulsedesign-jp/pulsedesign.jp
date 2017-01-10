@@ -1,16 +1,17 @@
 language: node_js
 node_js:
-  - "6"
-  - "6.1"
-  - "5.11"
+- '6'
+- '6.1'
+- '5.11'
 cache:
   directories:
-    - node_modules
+  - node_modules
   yarn: true
 before_script:
-  - nvm install 5
-  - npm install
+- nvm install 5
+- npm install
 script:
-  - npm run build
+- npm run build
 notifications:
-  slack: pulsedesign:bq233WnTbLy5FcUDOMdVyV1f
+  slack:
+    secure: tcOs/J2gQpxMRclUFMPlxzORVq3TDqFK3CqhvxMABgH+suuxlmtn4C60NebphMzeeKocz1LhaRlhuEUiCjFHizG+D2zLGaqOy7OFkKxRHXIXkBEazCsYVKHALdM3NXDrsV72oh5OGyXpfnm+Pc1dEJD8xfvKb/IWO9Q5HqfAtpHWmyRwtXGdqff4f9WVen/JaI1rVS6laIdCnZwO1ozS5Z5yqcS0lj1GgBkszVz43r/HPZXxgqIFS2pUKRV6iwIjtuUdFR2RNQSkr5+mjpkood6lwgQkDIEInl3hgiEbND3+EXqr5YE2oeQbFA0wdHnR2qv2NHM3sz4XENp946EiG9lyLGExVJsqm92l8JZGl9Zblmla3NPEZHfwDyhGJKc0n2yjAClkNZm/7xPnlNwfCSMzixpky+d4RM/G2jUySvdAERZGO9sUz8iWpipEpuRYkgh9+coEb6Mm7HyY83LZyD9Ri9TZAxs4d4LxnvH+4qNyVdu2XDhxCGZDULFPfhQChACPQlZTMMQVgkmDc4ExFlq7bOis4H23xQtHVeDejnjsPM7JFOl/sYxAaMscOyYYszK7LeP9kg8z4Rr+6MUaBXazJxKpBqXE4fcllhs04jkNTqZZOU6LmQQOjYqpBcBq4DShm2Yw3GTHva7j0DQ4hrTjwhz406xXkWO+voYAkts=
