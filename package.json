@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/pulsedesign-jp/pulsedesign.jp/issues"
   },
-  "homepage": "https://github.com/pulsedesign-jp/pulsedesign.jp/issues",
+  "homepage": "http://pulsedesign.jp",
   "engines": {
     "node": ">=5.0.0"
   },
